@@ -1,5 +1,5 @@
 {
-  "name": "vuebase",
+  "name": "vuebase-canfront",
   "version": "0.0.1",
   "description": "The base app of vue project",
   "main": "dist/index.js",
