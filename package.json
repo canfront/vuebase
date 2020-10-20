@@ -1,0 +1,52 @@
+{
+  "name": "vuebase",
+  "version": "0.0.1",
+  "description": "The base app of vue project",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "webpack --watch --mode=production",
+    "build": "webpack --mode=production",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git+https://github.com/canfront/vuebase.git"
+  },
+  "keywords": [
+    "vue",
+    "base",
+    "application",
+    "store",
+    "axios",
+    "http"
+  ],
+  "author": "acanstudio",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "@vuex-orm/core": "^0.31.13",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.11",
+    "qs": "^6.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^8.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "jest": "^23.5.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
